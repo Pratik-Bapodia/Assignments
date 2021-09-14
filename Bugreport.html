@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report Form</title>
+    <link rel="stylesheet" 
+    href="bugreportstyle.css" type="text/css"> 
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#tothenew">TO THE NEW</a>
+        <div class="topnav-right">
+          <a href="#home">Home</a>
+          <a href="#quickhelp">Quick Help</a>
+        </div>
+      </div>
+      <hr>
+
+      <div class="main">
+        <div class="register">
+            <h2> Bug Report</h2>
+            <form id="register">
+                <label>Title :*</label>
+                <br>
+                <input type="text" name="title" id="title">
+                <br>
+                <label> Description :*</label>
+                <br>
+               <textarea id ="description" name="description"></textarea>
+               <br>
+               <label id="label_design"> Operating System :*</label><br>
+                <select id="description" style="background-color:aqua;"> 
+                <option value="windowsxp"> Windows XP </option>
+                 <option value="windows10">Windows 10 </option>
+               <option value="ubuntu">Ubuntu </option>
+              <option value="mac">MAC</option>
+              <option value="windows11">Windows 11</option>
+        </select>
+        <br>
+        <label> Product :*</label><br>
+        <select id="description" style="background-color:aqua;">
+        <option value="">Lenovo</option>
+        <option value="">Dell</option>
+        <option value="">Asus</option>
+        <option value="">Apple</option>
+        <option value="">MI</option>
+         </select>
+         <br>
+         <label> Version:*</label>
+         <br>
+        <input id="description" type="text" id="title">
+        <br>
+        <label> License : </label>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="license" id="free">
+        &nbsp;
+        <span id="free">Free</span>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="license" id="business">
+        &nbsp;
+        <span id="business">Buisness</span>
+        <br>
+        <label> Severity :*</label>
+        <br>
+        <select id="description">
+        <option>Critical</option>
+        <option>Priorty</option>
+        <option>Low</option>
+        <option>High</option>
+        <option>Medium</option>
+        </select>
+        <br>
+        <label> Attachments:*</label>
+        <br>
+        <input type="file" id="myfile">
+        <br>
+        <input type="submit" value="Send" name="submit" id="submit">
+            </form>
+        </div><!--end register-->
+
+
+      </div><!--end main-->
+</body>
+</html>
